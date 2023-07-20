@@ -1,0 +1,47 @@
+@font-face {
+    font-family: DEMO;
+    src: url('fonts/DEMO.ttf');
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: bold;
+    font-style: normal;
+    src: url('fonts/OpenSans-Bold.ttf ');
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: 900;
+    font-style: normal;
+    src: url('fonts/OpenSans-extraBold.ttf ');
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, "opensans";
+}
+.v-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+}
+
+a{
+    display: inline;
+    font-family: opensans;
+    font-weight: 900;
+}
+
+.block {
+    background: url('images/vw\ scirocco.jpg');
+    background-size: 100% 100%;
+    width: 350px;
+    height: 200px;
+    background-color: lightblue;
+    display: inline;
+}
