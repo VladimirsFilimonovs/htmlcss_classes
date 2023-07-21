@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+body {
+
+    height: 100vh;
+    background: #2d3333;
+}
+button {
+
+    background: none;
+    color: #ccc;
+    width: 240px;
+    height: 80px;
+    border: 1px solid #135623;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .4s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    
+}
+button:hover {
+    background: #135623;
+    cursor: pointer;
+
+}
+button::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    width: 60px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    filter: blur(40px);
+    transform: translate(-160px) skewX(-15deg);
+
+}
+button:hover::before{
+
+    transform:translateX(300px) skewX(-15deg);
+    opacity: 0.6;
+    transition: .7s;
+}
