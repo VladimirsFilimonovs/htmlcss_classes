@@ -1,0 +1,27 @@
+ #rules_1 {       /* # обращяется к id */
+  color: red;
+
+ .rules_1 {
+  color: black;
+}
+
+}
+.rules_2 {          /* . обращяется к class */
+  color: blue;
+}
+
+  /* если стили применены и к id и к class в одном и том же теге - приоритет будет у id:
+  example :
+    <h1 id="rules_1" class="rules_1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aperiam sunt laboriosam corrupti repellendus
+    deleniti eum tempora minima natus vero pariatur officiis magni quaerat nulla tenetur, adipisci, sapiente similique
+    harum!
+
+#rules_1 {    id имеет приоритет/вес - поэтому шрифт красный, а не чёрный
+  color: red;
+
+ .rules_1 {
+  color: black;
+}
+
+  </h1> */
