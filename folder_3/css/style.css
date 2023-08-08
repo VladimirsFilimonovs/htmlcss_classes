@@ -32,7 +32,7 @@ body {
 }
 
 .logo {
-  /* display: inline-block; */
+  display: inline-block;
   margin-bottom: 50px;
 }
 
@@ -51,7 +51,7 @@ body {
   margin-right: 0;
 }
 
-/* article.html page style settings */
+/* article.html page CSS style */
 .container {
   margin: 0 auto;
   padding: 80px 0;
@@ -63,6 +63,10 @@ h2,
 p,
 ul {
   margin: 0;
+}
+
+ul {
+  padding: 0;
 }
 
 .main-header {
@@ -81,6 +85,42 @@ p {
   background-color: #f3f3f3;
 }
 
-.grey-box:last-of-type {
+.grey-box-last {
   margin-bottom: 0;
+}
+
+.grey-box p {
+  width: 692px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.grey-box ul {
+  padding: 15px;
+}
+
+.list-one li {
+  margin-bottom: 20px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+div img {
+  margin-bottom: 40px;
+}
+
+.media img {
+  margin-bottom: 0;
+}
+
+.media {
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-left: 0;
+  width: 872px;
 }
