@@ -92,16 +92,26 @@ background-position: left center;
 
 .img-wrapper {
   margin: 0;
-  width: 100%;
+  margin-bottom: 48px;
+  width: max-content;
+  font-size: 0;
 }
 
 .paragraph {
   margin: 0;
   margin-bottom: 48px;
   width: 871px;
-  font-style: 20px;
+  font-size: 20px;
   line-height: 180%;
   color: #333;
+}
+
+.chapter .paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.chapter .paragraph:nth-last-of-type(1) {
+  margin-bottom: 48px;
 }
 
 .img-descr {
@@ -115,6 +125,11 @@ background-position: left center;
 
 .quote {
   margin: 0;
+  margin-bottom: 32px;
+}
+
+.quote:last-of-type {
+  margin-bottom: 0;
 }
 
 .grey-box {
@@ -123,6 +138,10 @@ background-position: left center;
   background-position: right center;
   background-repeat: no-repeat;
   background-size: auto 100%;
+}
+
+.grey-box:last-of-type {
+  margin-bottom: 0;
 }
 
 .box-1 {
@@ -156,4 +175,32 @@ background-position: left center;
   text-align: center;
   color: #fff;
   background-color: #ff5943;
+}
+
+.chapter {
+  margin-bottom: 96px;
+}
+
+.quote .paragraph {
+  margin: 0;
+  width: 871px;
+  font-size: 20px;
+  line-height: 180%;
+  font-style: italic;
+  color: #333;
+}
+
+.list-2 {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-item {
+  font-size: 20px;
+  line-height: 42px;
+  color: #000;
+}
+
+.img-2 {
+  margin-top: 48px;
 }
