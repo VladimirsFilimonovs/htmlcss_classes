@@ -18,7 +18,7 @@ img {
 }
 
 body {
-  font-family: 'font', sans-serif;
+  font-family: Arial, Verdana, sans-serif;
 }
 
 .main-content {
@@ -44,11 +44,24 @@ body {
   display: inline-block;
   margin-right: 25px;
   padding: 24px 49px;
-
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
 }
 
 .link_objects:last-child {
   margin-right: 0;
+}
+
+.link-download {
+  padding-left: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #3f2aff;
+  background-image: url("../img/download.png");
+  background-position: left 0;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* article.html page CSS style */
@@ -62,21 +75,51 @@ body {
   margin: 0;
   width: 872px;
   margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #333;
+}
+
+.text-blue-box {
+  width: 100%;
+  border-radius: 20px;
+  padding: 50px 95px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  background-color: #3f2aff;
 }
 
 .main-title {
   margin: 0;
   margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
 }
 
 .title {
   margin: 0;
   width: 872px;
   margin-bottom: 40px;
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
 }
 
 .title {
   margin-bottom: 10px;
+}
+
+.second-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #333;
 }
 
 .list {
@@ -85,16 +128,29 @@ body {
   padding-left: 15px;
 }
 
+ul li::marker {
+  color: #3f2aff;
+}
+
 .inner-list {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .inner-list:last-of-type {
   margin-bottom: 0;
 }
 
+.links-index {
+  border-bottom: 1px solid #3f2aff;
+  font-size: 20px;
+  color: #3f2aff;
+}
+
 .img {
   margin-bottom: 40px;
+}
+figure {
+  font-size: 0;
 }
 
 .fig-img {
@@ -104,15 +160,32 @@ margin-bottom: 20px;
   margin-bottom: 40px;
 }
 
+.figcaption {
+  padding: 19px 19px;
+  border: 1px solid #b6b6b6;
+  border-top: 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
 .grey-box {
   border-radius: 20px;
   padding: 30px;
   background-color: #f3f3f3;
   margin-bottom: 40px;
+  background-repeat: no-repeat;
+  background-position: right 0;
+  background-size: contain;
+}
+
+.gbox-first {
+  background-image: url(../img/decorate-1.png);
 }
 
 .gbox-last {
   margin-bottom: 0;
+  background-image: url(../img/decorate-2.png);
 }
 
 .grey-box .text {
