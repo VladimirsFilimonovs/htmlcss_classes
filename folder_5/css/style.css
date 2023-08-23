@@ -258,6 +258,7 @@ figure {
 }
 
 .list-box {
+  position: relative;
   display: inline-block;
   vertical-align: top;
   margin: 0;
@@ -266,7 +267,6 @@ figure {
   width: 572px;
   height: 505px;
   box-shadow: 5px 5px 25px rgb(230, 224, 224);
-  position: relative;
 }
 
 li:nth-of-type(2n) {
@@ -274,28 +274,28 @@ li:nth-of-type(2n) {
 }
 
 .one {
-  background-image: url(../img/box1.jpg);
+  background-image: url('../img/box1.jpg');
   background-repeat: no-repeat;
   background-position: left top;
   background-size: contain;
 }
 
 .two {
-  background-image: url(../img/box2.jpg);
+  background-image: url('../img/box2.jpg');
   background-repeat: no-repeat;
   background-position: left top;
   background-size: contain;
 }
 
 .three {
-  background-image: url(../img/box3.jpg);
+  background-image: url('../img/box3.jpg');
   background-repeat: no-repeat;
   background-position: left top;
   background-size: contain;
 }
 
 .four {
-  background-image: url(../img/box4.jpg);
+  background-image: url('../img/box4.jpg');
   background-repeat: no-repeat;
   background-position: left top;
   background-size: contain;
@@ -304,10 +304,10 @@ li:nth-of-type(2n) {
 .bottom-button {
   margin: 50px auto;
   padding: 24px 70px; /* внутренние отступы (лево,право) сделал 70 а не 75, т.к название делается в 2 строки */
+  text-align: center;
   width: 274px;
   height: 70px;
   border: 2px solid #3f2aff;
-  text-align: center;
   color: #3f2aff;
   font-size: 18px;
   font-family: Arial;
@@ -315,12 +315,12 @@ li:nth-of-type(2n) {
 }
 
 .numbers {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
   margin: 0;
   padding: 0;
   font-size: 40px;
   font-weight: normal;
   color: #EAEAEA;
-  position: absolute;
-  bottom: 25px;
-  right: 25px;
 }
