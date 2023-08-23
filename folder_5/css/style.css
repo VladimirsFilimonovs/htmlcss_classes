@@ -153,6 +153,7 @@ ul li::marker {
 .img {
   margin-bottom: 40px;
 }
+
 figure {
   font-size: 0;
 }
@@ -195,4 +196,55 @@ figure {
 .grey-box .text {
   width: 692px;
   margin-bottom: 20px;
+}
+
+/* module.html page css style*/
+
+.cont-module {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.link-main-page {
+  margin: 0;
+  padding-left: 49px;
+  color: #3f2aff;
+  font-size: 20px;
+  font-family: arial;
+  background-image: url(../img/Arrow.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto;
+}
+
+.module-title {
+  margin: 0;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-family: arial;
+  font-weight: bold;
+  color: #3f2aff;
+}
+
+.module-table {
+  margin: 0;
+  padding: 0;
+}
+
+.module-second-title {
+  font-size: 40px;
+  color: #3f2aff;
+}
+
+.list-text {
+  font-size: 20px;
+  font-family: arial;
+  font-weight: normal;
+}
+
+.list-box {
+  display: inline-block;
+  width: 575px;
+  height: 505px;
 }
