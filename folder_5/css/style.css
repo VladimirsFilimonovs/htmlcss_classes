@@ -205,6 +205,12 @@ figure {
   width: 1170px;
 }
 
+.module-image {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
 .link-main-page {
   margin: 0;
   padding-left: 49px;
@@ -230,21 +236,91 @@ figure {
 .module-table {
   margin: 0;
   padding: 0;
+  font-size: 0;
 }
 
 .module-second-title {
+  margin: 0;
+  padding: 0;
+  padding-top: 205px;
+  padding-left: 25px;
   font-size: 40px;
-  color: #3f2aff;
+  color: #3f2aff;   /*  все заголовки оставил без margin_bottom т.к не смог распознать отстум между заголовком и первым пораграфом    */
 }
 
 .list-text {
+  margin: 0;
+  padding: 0;
+  padding-left: 25px;
+  line-height: 33px;
   font-size: 20px;
-  font-family: arial;
   font-weight: normal;
 }
 
 .list-box {
   display: inline-block;
-  width: 575px;
+  vertical-align: top;
+  margin: 0;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  width: 572px;
   height: 505px;
+  box-shadow: 5px 5px 25px rgb(230, 224, 224);
+  position: relative;
+}
+
+li:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.one {
+  background-image: url(../img/box1.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+}
+
+.two {
+  background-image: url(../img/box2.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+}
+
+.three {
+  background-image: url(../img/box3.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+}
+
+.four {
+  background-image: url(../img/box4.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+}
+
+.bottom-button {
+  margin: 50px auto;
+  padding: 24px 70px; /* внутренние отступы (лево,право) сделал 70 а не 75, т.к название делается в 2 строки */
+  width: 274px;
+  height: 70px;
+  border: 2px solid #3f2aff;
+  text-align: center;
+  color: #3f2aff;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.numbers {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: normal;
+  color: #EAEAEA;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
 }
