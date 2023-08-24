@@ -212,7 +212,8 @@ figure {
 }
 
 .link-main-page {
-  margin: 0;
+  display: block;
+  margin-bottom: 25px;
   padding-left: 49px;
   color: #3f2aff;
   font-size: 20px;
@@ -225,7 +226,6 @@ figure {
 
 .module-title {
   margin: 0;
-  margin-top: 25px;
   margin-bottom: 50px;
   font-size: 60px;
   font-family: arial;
@@ -235,6 +235,7 @@ figure {
 
 .module-table {
   margin: 0;
+  margin-bottom: 50px;
   padding: 0;
   font-size: 0;
 }
@@ -288,6 +289,7 @@ li:nth-of-type(2n) {
 }
 
 .three {
+  margin-bottom: 0;
   background-image: url('../img/box3.jpg');
   background-repeat: no-repeat;
   background-position: left top;
@@ -295,6 +297,7 @@ li:nth-of-type(2n) {
 }
 
 .four {
+  margin: 0;
   background-image: url('../img/box4.jpg');
   background-repeat: no-repeat;
   background-position: left top;
@@ -302,11 +305,14 @@ li:nth-of-type(2n) {
 }
 
 .bottom-button {
-  margin: 50px auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
   padding: 24px 70px; /* внутренние отступы (лево,право) сделал 70 а не 75, т.к название делается в 2 строки */
   text-align: center;
   width: 274px;
   height: 70px;
+  background: #fff;
   border: 2px solid #3f2aff;
   color: #3f2aff;
   font-size: 18px;
