@@ -202,12 +202,13 @@ figure {
 
 .cont-module {
   margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 1170px;
 }
 
 .module-image {
   display: block;
-  margin-top: 50px;
   margin-bottom: 25px;
 }
 
@@ -246,7 +247,7 @@ figure {
   padding-top: 205px;
   padding-left: 25px;
   font-size: 40px;
-  color: #3f2aff;   /*  все заголовки оставил без margin_bottom т.к не смог распознать отстум между заголовком и первым пораграфом    */
+  color: #3f2aff;  
 }
 
 .list-text {
@@ -303,15 +304,12 @@ li:nth-of-type(2n) {
   background-position: left top;
   background-size: contain;
 }
+.module-btn {
+  text-align: center;
+}
 
 .bottom-button {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  padding: 24px 70px; /* внутренние отступы (лево,право) сделал 70 а не 75, т.к название делается в 2 строки */
-  text-align: center;
-  width: 274px;
-  height: 70px;
+  padding: 24px 75px;
   background: #fff;
   border: 2px solid #3f2aff;
   color: #3f2aff;
