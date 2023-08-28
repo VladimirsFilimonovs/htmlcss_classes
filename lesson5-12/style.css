@@ -30,8 +30,8 @@
 } */
 
 body {
-	font-family: 'Roboto',sans-serif; /* для примера с гугл-фонтов */
-	/* font-family: 'Muller', sans-serif; для примера с фонт-фейсом */
+	/* font-family: 'Roboto',sans-serif; для примера с гугл-фонтов */
+	font-family: 'Muller', sans-serif; /*  для примера с фонт-фейсом */
 }
 
 .content {

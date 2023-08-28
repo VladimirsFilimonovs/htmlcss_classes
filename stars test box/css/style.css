@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller-Regular'),
+    url('fonts/MullerRegular.woff2') format('woff2'),
+    url('fonts/MullerRegular.woff') format('woff');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller-Bold'),
+    url('fonts/MullerBold.woff2') format('woff2'),
+    url('fonts/MullerBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: rgb(238, 231, 231);
+}
+
+body {
+  font-family: 'Muller', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 374px;
+  height: 440px;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.placement-img {
+  margin-bottom: 32px;
+}
+
+.price-text {
+  display: inline;
+  padding-left: 45px;
+  color: #999;
+  font-family: 'Muller';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.price {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: normal; */
+}
+
+.price-text-last {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.star {
+  display: inline;
+  margin-bottom: 16px;
+  padding-left: 52px;
+}
+
+.text-hotel {
+  margin-bottom: 16px;
+  padding-left: 45px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.inner-container {
+  margin-bottom: 16px;
+}
+
+.text-country {
+  margin-bottom: 20px;
+  padding-left: 45px;
+  color: #999;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button {
+  position: absolute;
+  left: 45px;
+  bottom: 30px;
+  padding: 13px 20px;
+  color: #c93;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #C93;
+}
