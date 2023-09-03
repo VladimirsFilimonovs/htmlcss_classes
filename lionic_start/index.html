@@ -11,12 +11,12 @@
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container flex header-container">
       <a href="#" class="header-logo">
         <img src="img/logo.svg" class="header-logo" alt="logo">
       </a>
       <nav class="header-nav">
-        <ul class="header-list">
+        <ul class="list-reset header-list list-reset flex">
           <li class="heeader-list-item">
             <a href="#" class="header-link">
               Home
@@ -49,7 +49,7 @@
           </li>
         </ul>
       </nav>
-      <button class="btn header-btn">
+      <button class="btn header-btn btn-reset">
         Free trial
       </button>
     </div>
@@ -58,7 +58,7 @@
   <main class="main">
     <section id="hero" class="hero">
       <div class="container">
-        <div class="hero-content">
+        <div class="hero-content flex">
           <h1 class="hero-title">
             This is&nbsp;simply a&nbsp;smarter way to&nbsp;make your legal online
           </h1>
@@ -66,7 +66,7 @@
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
             ut&nbsp;laoreet dolore.
           </p>
-          <button class="bnt hero-btn">
+          <button class="btn hero-btn btn-reset">
             FREE 30&nbsp;DAY TRIAL
           </button>
           <span class="hero-secure">
@@ -75,7 +75,7 @@
         </div>
       </div>
     </section>
-    <section id="services" class="services">
+    <section id="services" class="services section-offset">
       <div class="container">
         <h2 class="section-title services-title">
           Services
@@ -83,8 +83,8 @@
         <p class="section-descr services-descr">
           Lionic guides you on&nbsp;making decisions for all aspects of&nbsp;your end-of-life plans.
         </p>
-        <ul class="services-items">
-          <li class="services-item">
+        <ul class="list-reset services-items flex">
+          <li class="services-item flex">
             <svg class="services-item-icon" width="68" height="66" viewBox="0 0 68 66" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_7_34)">
@@ -105,7 +105,7 @@
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
             </p>
           </li>
-          <li class="services-item">
+          <li class="services-item flex">
             <svg class="services-item-icon" width="86" height="64" viewBox="0 0 86 64" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_7_47)">
@@ -126,7 +126,7 @@
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
             </p>
           </li>
-          <li class="services-item">
+          <li class="services-item flex">
             <svg class="services-item-icon" width="64" height="64" viewBox="0 0 64 64" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -140,7 +140,7 @@
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
             </p>
           </li>
-          <li class="services-item">
+          <li class="services-item flex">
             <svg class="services-item-icon" width="65" height="65" viewBox="0 0 65 65" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_7_69)">
@@ -164,14 +164,14 @@
         </ul>
       </div>
     </section>
-    <section id="atricles" class="articles">
+    <section id="atricles" class="articles section-offset">
       <div class="container">
         <h2 class="section-title articles-title">
           Articles
         </h2>
-        <ul class="articles-list">
+        <ul class="list-reset articles-list flex">
           <li class="articles-item">
-            <article class="blog-preview">
+            <article class="blog-preview flex">
               <img src="img/blog-1.jpg" alt="blog photo 1" class="blog-preview-image">
               <div class="blog-preview-text">
                 <time class="blog-preview-time" datetime="2023-08-24 19:00">
@@ -187,23 +187,7 @@
             </article>
           </li>
           <li class="articles-item">
-            <article class="blog-preview">
-              <img src="img/blog-2.jpg" alt="blog photo 2" class="blog-preview-image">
-              <div class="blog-preview-text">
-                <time class="blog-preview-time" datetime="2023-08-24 19:00">
-                  29&nbsp;Nov 2021
-                </time>
-                <h3 class="blog-preview-title">
-                  Rights and obligations
-                </h3>
-                <p class="blog-preview-descr">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                </p>
-              </div>
-            </article>
-          </li>
-          <li class="articles-item">
-            <article class="blog-preview">
+            <article class="blog-preview flex">
               <img src="img/blog-3.jpg" alt="blog photo 3" class="blog-preview-image">
               <div class="blog-preview-text">
                 <time class="blog-preview-time" datetime="2023-08-24 19:00">
@@ -219,7 +203,23 @@
             </article>
           </li>
           <li class="articles-item">
-            <article class="blog-preview">
+            <article class="blog-preview flex">
+              <img src="img/blog-2.jpg" alt="blog photo 2" class="blog-preview-image">
+              <div class="blog-preview-text">
+                <time class="blog-preview-time" datetime="2023-08-24 19:00">
+                  29&nbsp;Nov 2021
+                </time>
+                <h3 class="blog-preview-title">
+                  Rights and obligations
+                </h3>
+                <p class="blog-preview-descr">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="articles-item">
+            <article class="blog-preview flex">
               <img src="img/blog-4.jpg" alt="blog photo 4" class="blog-preview-image">
               <div class="blog-preview-text">
                 <time class="blog-preview-time" datetime="2023-08-24 19:00">
@@ -237,81 +237,86 @@
         </ul>
       </div>
     </section>
-    <section id="clients" class="clients">
-      <h2 class="section-title clients-title">
-        Clients
-      </h2>
-      <ul class="clients-list">
-        <li class="clients-item">
-          <p class="clients-item-descr">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quas quam exercitationem odit dolorem
-            aspernatur eaque aperiam, ipsam praesentium quaerat. Nesciunt commodi libero culpa consequuntur consectetur,
-            exercitationem quasi? Quisquam, repudiandae.
-          </p>
-          <div class="clients-user">
-            <div class="clients-avatar">
-              <img src="img/client-1.jpg" alt="John Armstrong">
-            </div>
-            <div class="clients-text">
-              <div class="clients-name">
-                John Armstrong
+    <section id="clients" class="clients section-offset">
+      <div class="container">
+        <h2 class="section-title clients-title">
+          Clients
+        </h2>
+        <ul class="list-reset clients-list flex">
+          <li class="clients-item flex">
+            <p class="clients-item-descr">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quas quam exercitationem odit dolorem
+              aspernatur eaque aperiam, ipsam praesentium quaerat. Nesciunt commodi libero culpa consequuntur
+              consectetur,
+              exercitationem quasi? Quisquam, repudiandae.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="img/client-1.jpg" alt="John Armstrong">
               </div>
-              <span class="clients-poss">
-                Customer
-              </span>
-            </div>
-          </div>
-        </li>
-        <li class="clients-item">
-          <p class="clients-item-descr">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quas quam exercitationem odit dolorem
-            aspernatur eaque aperiam, ipsam praesentium quaerat. Nesciunt commodi libero culpa consequuntur consectetur,
-            exercitationem quasi? Quisquam, repudiandae.
-          </p>
-          <div class="clients-user">
-            <div class="clients-avatar">
-              <img src="img/client-2.jpg" alt="Elizabeth Martin">
-            </div>
-            <div class="clients-text">
-              <div class="clients-name">
-                Elizabeth Martin
+              <div class="clients-text">
+                <div class="clients-name">
+                  John Armstrong
+                </div>
+                <span class="clients-poss">
+                  Customer
+                </span>
               </div>
-              <span class="clients-poss">
-                Customer
-              </span>
             </div>
-          </div>
-        </li>
-        <li class="clients-item">
-          <p class="clients-item-descr">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quas quam exercitationem odit dolorem
-            aspernatur eaque aperiam, ipsam praesentium quaerat. Nesciunt commodi libero culpa consequuntur consectetur,
-            exercitationem quasi? Quisquam, repudiandae.
-          </p>
-          <div class="clients-user">
-            <div class="clients-avatar">
-              <img src="img/client-3.jpg" alt="Robin Soutby">
-            </div>
-            <div class="clients-text">
-              <div class="clients-name">
-                Robin Soutby
+          </li>
+          <li class="clients-item flex">
+            <p class="clients-item-descr">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quas quam exercitationem odit dolorem
+              aspernatur eaque aperiam, ipsam praesentium quaerat. Nesciunt commodi libero culpa consequuntur
+              consectetur,
+              exercitationem quasi? Quisquam, repudiandae.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="img/client-2.jpg" alt="Elizabeth Martin">
               </div>
-              <span class="clients-poss">
-                Customer
-              </span>
+              <div class="clients-text">
+                <div class="clients-name">
+                  Elizabeth Martin
+                </div>
+                <span class="clients-poss">
+                  Customer
+                </span>
+              </div>
             </div>
-          </div>
-        </li>
-      </ul>
+          </li>
+          <li class="clients-item flex">
+            <p class="clients-item-descr">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quas quam exercitationem odit dolorem
+              aspernatur eaque aperiam, ipsam praesentium quaerat. Nesciunt commodi libero culpa consequuntur
+              consectetur,
+              exercitationem quasi? Quisquam, repudiandae.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="img/client-3.jpg" alt="Robin Soutby">
+              </div>
+              <div class="clients-text">
+                <div class="clients-name">
+                  Robin Soutby
+                </div>
+                <span class="clients-poss">
+                  Customer
+                </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section id="contacts" class="contacts">
-      <div class="containter">
+    <section id="contacts" class="contacts section-offset">
+      <div class="container">
         <h2 class="section-title contacts-title">
           Contacts
         </h2>
         <address class="contacts-address">
-          <ul class="contacts-list">
-            <li class="contacts-item">
+          <ul class="list-reset contacts-list flex">
+            <li class="contacts-item flex">
               <strong class="contacts-item-caption">
                 Visit Us
               </strong>
@@ -319,7 +324,7 @@
                 Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit.
               </p>
             </li>
-            <li class="contacts-item">
+            <li class="contacts-item flex">
               <strong class="contacts-item-caption">
                 Call Us
               </strong>
@@ -330,7 +335,7 @@
                 +7 (123) 456-78-90
               </a>
             </li>
-            <li class="contacts-item">
+            <li class="contacts-item flex">
               <strong class="contacts-item-caption">
                 Email Us
               </strong>
